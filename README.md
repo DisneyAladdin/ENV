@@ -58,7 +58,7 @@ Y
 ```
 
 
-# Terminal　の便利な使い方
+# Terminalの便利な使い方
 #### コピー
 ```
 command + C
