@@ -1,6 +1,6 @@
 # ENV
 
-# Vim関係
+# Vim
 #### 設定
 ```
 vim ~/.vimrc
@@ -139,3 +139,13 @@ Command + A
 .sh ファイルを「常にターミナルで開く」に設定
 
 ```chmod +x [FileName].sh```をターミナルの.shファイルがある場所で実行
+# 仮想環境
+```which python 2.7```
+
+```（例）/usr/local/bin/python2.7```
+
+```virtualenv -p /usr/local/bin/python2.7 py2.7```
+
+```source py2.7/bin/activate```
+
+```deactivate```
