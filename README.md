@@ -56,3 +56,70 @@ Shift + G
 ```
 Y
 ```
+
+
+# Terminal　の便利な使い方
+#### コピー
+```
+command + C
+```
+#### ペースト
+```
+command + V
+```
+#### 検索
+```
+command + F
+```
+#### 使用言語の確認
+```
+echo $LANG
+```
+#### EUCに変換
+```
+nkf -e [file_name] > [new_file_name]
+```
+#### バイト数を表示
+```
+wc -c [filename]
+```
+#### 文字数を表示
+```
+wc -m [filename]
+```
+#### 行数を表示	
+```
+wc -l [filename]
+```
+#### 単語数を表示
+```
+wc -w [filename]
+```
+#### 文字コードを確認
+```
+nkf -g [file_name]
+```
+#### UTF-8に変換
+```
+nkf -w [file_name]
+```
+#### EUCに変換
+```
+nkf -e [file_name]
+```
+#### 一行選択
+```
+Shift + V
+```
+#### 一番下まで移動
+```
+Shift + G
+```
+#### コピー
+```
+Y
+```
+#### 全選択
+```
+Command + A
+```
