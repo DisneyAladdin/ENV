@@ -142,10 +142,12 @@ Command + A
 # 仮想環境
 ```which python 2.7```
 
-```（例）/usr/local/bin/python2.7```
+（例）```/usr/local/bin/python2.7```
 
 ```virtualenv -p /usr/local/bin/python2.7 py2.7```
 
+起動
 ```source py2.7/bin/activate```
 
+終了
 ```deactivate```
