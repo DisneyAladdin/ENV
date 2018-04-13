@@ -146,8 +146,8 @@ Command + A
 
 ```virtualenv -p /usr/local/bin/python2.7 py2.7```
 
-起動
+#### 起動
 ```source py2.7/bin/activate```
 
-終了
+#### 終了
 ```deactivate```
